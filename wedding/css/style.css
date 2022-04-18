@@ -1,0 +1,431 @@
+/* CSS Reset */
+
+body, div, dl, dt, dd, li, pre, form, fieldset, input, textarea, p, blockquote, th, td, button {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align:left;
+	padding-bottom:40px;
+}
+
+h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 44px;
+	font-family: riotsquad;
+	color: #275726;
+	text-shadow:#fff 0 1px 0;
+	margin-left:40px;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: riotsquad;
+	color: #275726;
+	text-shadow:#fff 0 1px 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: riotsquad;
+	color: #383838;
+}
+
+address, caption, cite, code, dfn, em, strong, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th {
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+}
+
+acronym, abbr, fieldset, img {
+	border: 0;
+}
+
+:focus {
+	outline: 0;
+}
+
+p a,
+small a {
+	color:#219A36;
+	text-decoration:none;
+}
+
+p a:hover, 
+small a:hover {
+	text-decoration:underline;
+}
+
+strong {
+	font-weight:bold;
+}
+
+/*	
+-------------------------------------------
+MAIN STUCTURE
+-------------------------------------------
+*/
+
+body {
+	background-color: black;
+	background-image:url(../images/bg.png);
+	background-repeat: repeat;
+}
+
+/*	
+-------------------------------------------
+Borders
+-------------------------------------------
+*/
+
+#borderBottom{
+	position: fixed;
+	height: 8px;
+	bottom: 0;
+	width: 100%;
+	background: #383838;
+	z-index: 40000;
+}
+
+#borderTop{
+	position: fixed;
+	height: 8px;
+	top: 0;
+	width: 100%;
+	background: #383838;
+	z-index: 40000;
+}
+
+#borderLeft{
+	position: fixed;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 8px;
+	background: #383838;
+	z-index: 40000;
+}
+
+#borderRight{
+	position: fixed;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 8px;
+	background: #383838;
+	z-index: 40000;
+}
+
+.clearer {
+	clear: both;
+	margin: 0;
+	line-height: 0;
+	padding: 0;
+}
+
+#backTop {
+	background:url(../images/btp.png) no-repeat;
+	display: inline;
+	height:56px;
+	bottom: 8px;
+	right: 30px;
+	position: fixed;
+	width:74px;
+	z-index: 20;
+}
+
+a#up {
+	background:url(../images/btp.png) no-repeat;
+	display:block;
+	height:56px;
+	width:74px;
+}
+
+a#up:hover {
+	background:url(../images/btp_hover.png) no-repeat;
+	behavior: url(iepngfix.htc);
+}
+
+* {
+	margin: 0;
+}
+
+#wrapper {
+	background: none;
+	margin: 25px auto;
+	width: 945px;
+}
+
+#bd {
+	background: url(../images/bg_ctn.png);
+	margin: 0 auto;
+	width: 884px;
+}
+
+#logo {
+	color:#353535;
+	margin: 0 auto 10px auto;
+	padding: 0 0 0 20px;
+	width: 500px;
+}
+
+#logo img {
+	height:120px;
+	width:auto;
+	padding:0 6px;
+}
+
+#logo img.bell {
+	margin-bottom:-10px;
+}
+
+#logo img.name {
+	height:auto;
+	width:auto;
+	padding:0;
+}
+
+/*	
+-------------------------------------------
+	NAVIGATION
+-------------------------------------------
+*/
+
+#navWrap {
+	height: 115px;
+	margin: 0 auto;
+	position: relative;
+	width: 880px;
+	z-index: 10;
+	background-image: url(../images/ribbon.png);
+	background-position:center;
+}
+
+ul#topnav {
+	list-style: none;
+	margin: -21px 0 0 0;
+	padding: 0;
+	width: 597px;
+}
+
+ul#topnav li {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#navi ul {
+	float: left;
+	list-style: none;
+	width: auto;
+	margin-top: 41px;
+	margin-left: 53px;
+	padding: 0;
+	font-family: riotsquad;
+}
+
+#navi ul li {
+	float: left;
+	margin: 0;
+}
+
+#navi ul li a {
+	float: left;
+	margin: 0;
+	padding: 8px 2px 0 15px;
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#navi ul li a:hover, #nav ul li a:active {
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+#navi ul li#current a {
+	color: #e7e7e7;
+	background: transparent url(../images/bg_active.jpg) no-repeat center bottom;
+}
+
+#navi ul li a.date {
+	margin: -2px 10px 0 11px;
+}
+
+/*	
+-------------------------------------------
+	FONT REPLACE
+-------------------------------------------
+*/
+
+@font-face {
+	font-family: riotsquad;
+	src: url(../fonts/RiotSquadNF.ttf) format("opentype");
+}
+
+#welcomepic {
+	float: left;
+	border: 4px solid white;
+	box-shadow: 0 10px 20px #888888;
+	margin-top:44px;
+}
+
+#welcome {
+	float: left;
+	margin: 44px 0 0 0;
+	width: 345px;
+}
+
+#welcome img {
+	margin: 0 0 0 46px;
+}
+
+#welcome p {
+	font: Georgia, "Times New Roman", Times, serif;
+	padding: 17px 0 0 46px;
+	width: 340px;
+	color: #454545;
+	line-height: 25px;
+	text-shadow:#fff 0 1px 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#pageWrap {
+	margin: 25px 0;
+}
+
+#page {
+	background: url(../images/page_bg.png);
+	padding: 50px 0;
+}
+
+#churchpic {
+	border: 3px solid white;
+	outline: 1px solid #CCC;
+	margin-bottom:2px;
+}
+
+.allCaps {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.boldItalic {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#mainParty {
+	text-align: center;
+}
+
+#maidsMen {
+	margin: 0 auto;
+	width: 725px;
+	line-height:25px;
+}
+
+#couple-names {
+	margin: 0 auto;
+	width: 725px;
+	line-height:25px;
+}
+
+#bridesMaids, #groomsMen {
+	float: left;
+}
+
+#bride, #groom {
+	float: left;
+}
+
+#bride {
+	padding: 0 40px 0 0;
+	width: 340px;
+}
+
+#bridesMaids {
+	padding: 0 27px 0 0;
+}
+
+.thumbs {
+	border: 3px solid #fff;
+	outline: 1px solid #ccc;
+	margin: 3px;
+}
+
+.addressWrap {
+	margin: 0 auto;
+	width: 725px;
+}
+
+.middlerow {
+	padding: 10px 46px 10px 45px;
+	background-color:#F8F8F8;
+	margin: 0 -45px 0 -46px;
+}
+
+.hotelname {
+	font-size:110%;
+	text-decoration:underline;
+}
+
+iframe {
+	border: 3px solid white;
+	outline: 1px solid #CCC;
+}
+
+iframe.location-map {
+	margin: auto;
+}
+
+.yui-u p,
+.address p,
+#ceremonyText {
+	font: Georgia, "Times New Roman", Times, serif;
+	line-height: 25px;
+}
+
+.address p,
+#ceremonyText {
+	margin: 0 auto;
+	width: 725px;
+}
+
+#code-container {
+	width:1000px;
+	height:50px;
+}
+
+#code {
+	display:none;
+	text-align:center;
+	padding-right:75px;
+}
