@@ -1,0 +1,86 @@
+/*
+Blues:
+009999
+1D7373
+006363
+33CCCC
+5CCCCC
+
+Oranges:
+A64B00
+BF7130
+FF7400
+FF9640
+FFB273
+*/
+
+html,body {
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+}
+
+.row {
+  margin:0;
+}
+
+#full { 
+  width: 100%;
+  min-height: 100%;
+  margin: auto;
+
+  background: url(../img/tom.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.content {
+  background-color:rgba(25,22,20,0.7);
+  color:#fff;
+  padding:20px 40px;
+  margin-top:40px;
+}
+
+h1 {
+  color:#fff;
+  font-family: homestead;
+  font-weight:200;
+  font-size: 45px;
+  padding:0;
+  margin:0;
+  line-height: 45px;
+}
+
+h2 {
+  color:#fff;
+  font-family: raleway;
+  font-size: 30px;
+  padding:10px 0;
+  margin:0;
+}
+
+.contact {
+  color:#fff;
+  font-family: raleway;
+  font-size: 25px;
+  padding:0;
+  margin:0;
+}
+
+/* ==========================================================================
+   FONT REPLACE
+   =========================================================================== */
+
+@font-face {
+  font-family: homestead;
+  src: url(../font/Homestead/Homestead-Display.ttf) format("truetype");
+  /*src: url(../font/Homestead/Homestead-Inline.ttf) format("truetype");*/
+  /*src: url(../font/Homestead/Homestead-Regular.ttf) format("truetype");*/
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(../font/Raleway/raleway_thin-webfont.ttf) format("truetype");
+}
