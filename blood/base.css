@@ -1,0 +1,209 @@
+html {
+    background: url('waterMark.gif') no-repeat right bottom fixed;
+}
+body {
+    color: #000;
+    margin: auto;
+    width: 960px;
+}
+
+p {
+    margin: 1em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote,ul,ol {
+	margin:1em;
+}
+
+ol li {
+	list-style: decimal outside;
+        padding: 5px 0;
+}
+
+ul li {
+	list-style: disc outside;
+}
+
+a,
+a.visited {
+    color: #CF312C;
+}
+
+/* Header */
+.header .yui3-u-2-3 .left,
+.header .yui3-u-1-3 .right {
+    padding: 5px;
+}
+
+.header .yui3-u-2-3 .left .logo {
+    float: left;
+}
+
+.header .yui3-u-2-3 .left h1 {
+    float: left;
+    margin: 50px 0 0 20px;
+}
+
+.header .yui3-u-1-3 .right {
+    float: right;
+    margin-top: 50px;
+}
+.header .yui3-u-1-3 .right .profile {
+    float: left;
+    padding-right: 5px;
+}
+.header .yui3-u-1-3 .right .user-info {
+    width: 177px;
+}
+#hd {
+    padding-bottom:10px;
+}
+
+/* Menu */
+.yui3-loading #productsandservices {
+    display: none;
+}
+
+#mainnav {
+    font-size: 115%;
+}
+
+#mainnav .current a,
+#mainnav .yui3-menuitem-active a {
+    background: url(http://yui.yahooapis.com/3.2.0/build/assets/skins/sam/sprite.png) repeat-x 0px -100px;
+    color: #CF312C;
+}
+
+/* Basic styles */
+h1 {
+    text-align: left;
+    font-size: 250%;
+    padding: .25em;
+    color: #000;
+}
+
+h2 {
+    text-align: left;
+    font-size: 150%;
+    padding: .5em 0;
+    color: #000;
+}
+
+h3 {
+    text-align: left;
+    font-size: 110%;
+    padding: 0.4em 0 0 0;
+    color: #CF312C;
+    font-weight: bold;
+}
+
+form, form div {
+    margin: .5em 0;
+}
+
+p.first-of-type {
+    margin-top: .5em;
+}
+
+#bd .yui3-u-1-3 .content {
+    padding-left: 30px; /* gutter */
+}
+
+#footer {
+    font-size: 85%;
+    padding-top: 1em;
+    color: grey;
+}
+
+/* tweets */
+.tweet td {
+    padding: 5px 0;
+}
+
+.tweet.odd {
+    background-color: #EDECED;
+}
+.tweet.cbs {
+    background-color: #EDC5C8;
+}
+.clear {
+    clear: both;
+}
+
+.tweet.more td {
+    text-align: right;
+}
+
+.tweet.follow td {
+    text-align: center;
+}
+
+.tweet td {
+    padding-left: 5px;
+}
+
+/* twitter */
+.name {
+    font-weight: bold;
+}
+
+span.red {
+    color: #CF312C;
+}
+
+/* photos */
+table.photos tr td {
+    padding: 10px;
+}
+
+.youtubelogo {
+    float: left;
+}
+
+h2.padding {
+    padding-top: 25px;
+}
+
+h2.youtube {
+    display: inline-block;
+    padding: 0 0 10px 10px;
+}
+
+table.recentphotos tr td {
+    padding: 5px 20px 5px 0;
+    vertical-align: top;
+}
+
+.tweet p,
+#hd p {
+    margin: 0;
+}
+
+table.videothumbnails tr td {
+    padding: 10px;
+}
+
+.article .date,
+table.recentphotos tr td .date {
+    color: grey;
+    font-style: italic;
+    font-size: 85%;
+    padding: 3px 0;
+}
+
+.article h3 {
+    padding-top: 15px;
+
+}
+
+.facebooklogo {
+    padding-top: 25px;
+}

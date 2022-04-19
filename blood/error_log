@@ -1,0 +1,7 @@
+[22-Oct-2010 23:56:20] PHP Parse error:  syntax error, unexpected T_DNUMBER in /home/marlirau/public_html/index.php on line 6
+[23-Oct-2010 01:21:25] PHP Warning:  include(footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marlirau/public_html/index.php on line 32
+[23-Oct-2010 01:21:25] PHP Warning:  include(footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marlirau/public_html/index.php on line 32
+[23-Oct-2010 01:21:25] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marlirau/public_html/index.php on line 32
+[23-Oct-2010 01:22:43] PHP Warning:  include(footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marlirau/public_html/index.php on line 32
+[23-Oct-2010 01:22:43] PHP Warning:  include(footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marlirau/public_html/index.php on line 32
+[23-Oct-2010 01:22:43] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marlirau/public_html/index.php on line 32
